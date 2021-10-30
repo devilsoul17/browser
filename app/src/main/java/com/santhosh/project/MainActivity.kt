@@ -10,14 +10,14 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.LinearLayout
 import android.widget.ProgressBar
-import android.widget.SearchView
+import androidx.appcompat.widget.SearchView
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
-    var searchView: SearchView? = null
-    var webView: WebView? = null
-    var progressBar: ProgressBar? = null
-//    var mainScreen: LinearLayout? = null
+    lateinit var searchView: SearchView
+    lateinit var webView: WebView
+    lateinit var progressBar: ProgressBar
+    lateinit var mainScreen: LinearLayout
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

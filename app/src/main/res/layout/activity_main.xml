@@ -38,7 +38,7 @@
 
                     <androidx.appcompat.widget.SearchView
                         android:id="@+id/searchView"
-                        android:layout_width="300dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_marginStart="5dp"
@@ -46,13 +46,13 @@
                         android:layout_marginEnd="5dp"
                         android:layout_marginBottom="5dp"
                         android:layout_toRightOf="@id/home"
+                        android:background="@drawable/search_bg"
                         android:clickable="true"
                         android:focusable="false"
                         android:padding="5dp"
                         app:defaultQueryHint="Search or Type URL"
                         app:iconifiedByDefault="false"
-                        app:searchIcon="@drawable/search_24"
-                        android:background="@drawable/search_bg" />
+                        app:searchIcon="@drawable/search_24" />
 
                     <ImageView
                         android:id="@+id/back"
@@ -128,7 +128,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/Instagram"
+                                android:id="@+id/instagram"
                                 android:layout_width="60dp"
                                 android:layout_height="60dp"
                                 android:layout_marginRight="20dp"
@@ -139,7 +139,7 @@
                                 android:src="@drawable/insta" />
 
                             <ImageView
-                                android:id="@+id/Google"
+                                android:id="@+id/youtube"
                                 android:layout_width="60dp"
                                 android:layout_height="60dp"
                                 android:layout_marginRight="20dp"
@@ -147,10 +147,10 @@
                                 android:onClick="imageClicked"
                                 android:padding="10dp"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/google" />
+                                android:src="@drawable/youtube" />
 
                             <ImageView
-                                android:id="@+id/Telegram"
+                                android:id="@+id/telegram"
                                 android:layout_width="60dp"
                                 android:layout_height="60dp"
                                 android:layout_marginRight="20dp"
@@ -170,7 +170,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/Facebook"
+                                android:id="@+id/facebook"
                                 android:layout_width="60dp"
                                 android:layout_height="60dp"
                                 android:layout_marginRight="20dp"
@@ -190,7 +190,7 @@
                                 android:visibility="invisible" />
 
                             <ImageView
-                                android:id="@+id/Linkedin"
+                                android:id="@+id/LinkedIn"
                                 android:layout_width="60dp"
                                 android:layout_height="60dp"
                                 android:layout_marginRight="20dp"
@@ -208,7 +208,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/Srcas"
+                                android:id="@+id/srcas"
                                 android:layout_width="60dp"
                                 android:layout_height="60dp"
                                 android:layout_marginRight="20dp"
@@ -219,7 +219,7 @@
                                 android:src="@drawable/srcas" />
 
                             <ImageView
-                                android:id="@+id/Salesforce"
+                                android:id="@+id/trailhead_salesforce"
                                 android:layout_width="60dp"
                                 android:layout_height="60dp"
                                 android:layout_marginRight="20dp"
@@ -230,7 +230,7 @@
                                 android:src="@drawable/trailhead" />
 
                             <ImageView
-                                android:id="@+id/Twitter"
+                                android:id="@+id/twitter"
                                 android:layout_width="60dp"
                                 android:layout_height="60dp"
                                 android:layout_marginRight="20dp"
